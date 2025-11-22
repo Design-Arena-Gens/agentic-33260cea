@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: theme("colors.slate.50");
+}
+
+main {
+  width: min(960px, 100%);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
